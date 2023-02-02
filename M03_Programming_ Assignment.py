@@ -38,7 +38,7 @@ def main():
     car.roof = input("Roof (solid or sun roof): ")
     #printing the data
     print("\n***Vehicle Details***")
-    print("\nType:", car.vehicle_type)
+    print("Type:", car.vehicle_type)
     print("Year:", car.year)
     print("Make:", car.make)
     print("Model:", car.model)
