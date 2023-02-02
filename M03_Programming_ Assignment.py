@@ -30,14 +30,14 @@ def main():
     #initializing the automobile object
     car = Automobile(None, None, None, None, None)
     #getting inputs from the users and saving into the attributes
-    print("\nPlease enter the details of a car\n")
+    print("\nPlease enter the details of a car")
     car.year = input("Year: ")
     car.make = input("Make: ")
     car.model = input("Model: ")
     car.doors = input("Doors (2 or 4): ")
     car.roof = input("Roof (solid or sun roof): ")
     #printing the data
-    print("\n***Vehicle Details***\n")
+    print("\n***Vehicle Details***")
     print("\nType:", car.vehicle_type)
     print("Year:", car.year)
     print("Make:", car.make)
